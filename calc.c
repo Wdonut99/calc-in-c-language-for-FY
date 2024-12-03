@@ -12,19 +12,23 @@ int main()
     
     switch (cal)
     {
-     case '+':
-     printf(" %d",x+y);
+       case '+':
+     printf("Answer is %d",x+y);
      break;
-     case '-':
-     printf(" %d",x-y);
+       case '-':
+     printf(" Answer is %d",x-y);
      break;
-     case '/':
-     printf(" %d",x/y);
+       case '/':
+     printf(" Answer is %d",x/y);
      break;
-     case '*':
-    printf(" %d",x*y);
+       case '*':
+     printf(" Answer is %d",x*y);
      break;
+        default:
+      printf("wrong symbol") 
+      break;
     }
+    
 
-    return 0;
+    return 69;
 }
